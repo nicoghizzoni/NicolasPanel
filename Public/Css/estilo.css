@@ -1,0 +1,127 @@
+
+*{  margin-top: 0;
+    padding: 5px;
+    box-sizing:border-box;
+} 
+.navbar{background-color: #F0CEFE;}
+
+/*social*/
+.social {
+	position: fixed; 
+	right: 0;
+    bottom: 0;
+	top: 322.5px; 
+	z-index: 2000; 
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color:#fff;
+    background: #fff;
+    padding: 15px 15px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+
+.social ul li .icon-facebook {
+    width: 15px;
+    height: 15px;
+    background: rgba(138,221,45,0);;
+    background-image: url(../Img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;  
+} 
+.social ul li .icon-twitter {
+    width: 15px;
+    height: 15px;
+    background: rgba(138,221,45,0);
+    background-image: url(../Img/logotipo-de-twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social ul li .icon-instagram {
+    width: 20px;
+    height: 20px;
+    background: rgba(138,221,45,0);
+    background-image: url(../Img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social ul li .icon-wapp {
+    width: 15px;
+    height: 15px;
+    background: rgba(138,221,45,0);
+    background-image: url(../Img/whatsapp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.social ul li a:hover {
+    width: 20px;
+    height: 20px;
+    opacity: 90%; 
+    padding: 30px 30px; 
+}
+
+/*footer*/
+
+.footer{display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 5px; 
+    padding: 5px 0 0 5px;
+    justify-items: center ; 
+    align-items: center;
+    background: black;
+}
+
+    .menu-footer{list-style: none;
+                padding-bottom: 10px;
+                text-decoration-line: none;
+                align-self:center;}
+
+    .mapa{width: auto;
+          height: auto;
+          border: auto;
+          padding: 50;}
+
+.footer a{color: #fff;
+text-decoration: none;}
+
+/*anexos*/
+#principal {
+    padding-top: 10px;
+
+}
+#foto{
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+    height: 400px;;
+    float: right;
+
+}
+
+#principal h1{
+    color:#8E44AD;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#principal p{
+    text-align: justify;
+    border: 0cm;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    line-height: 130%    ;
+    text-indent: 2cm;
+    font-style: bold;
+    color: black;
+}
+
